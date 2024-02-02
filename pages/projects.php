@@ -11,37 +11,49 @@
 
   <main class="main">
     <div class="project">
-      <img class="project__img" src="../assets/img/roots-reggae-music-port.png" alt="roots reggae music thumbnail">
+      <a class="project__link" href="../projects/roots-reggae-music/index.html">
+        <img class="project__img" src="../assets/img/roots-reggae-music-port.png" alt="roots reggae music thumbnail">
+      </a>
       <p class="project__text">We developed this website as a school project for a web design class. This project was
         based on the Bootstrap CSS framework and includes many interactive components powered by Javascript.</p>
     </div>
 
     <div class="project">
-      <img class="project__img" src="../assets/img/ct-lawncare-port.png" alt="c & t lawn care thumbnail">
+      <a class="project__link" href="../projects/ct-lawncare/index.html">
+        <img class="project__img" src="../assets/img/ct-lawncare-port.png" alt="c & t lawn care thumbnail">
+      </a>
       <p class="project__text">We developed this website for a fictional lawn care business. We are most proud of this
         project as it incorporates features such as a contact form and a mobile-friendly layout.</p>
     </div>
 
     <div class="project">
-      <img class="project__img" src="../assets/img/founders-port.png" alt="founder's gym thumbnail image">
+      <a class="project__link" href="../projects/founders-gym/index.html">
+        <img class="project__img" src="../assets/img/founders-port.png" alt="founder's gym thumbnail image">
+      </a>
       <p class="project__text">We developed this website for a fictional gym. This project features a mobile-friendly
         layout as well as nice use of images.</p>
     </div>
 
     <div class="project">
-      <img class="project__img" src="../assets/img/trillo-port.png" alt="trillo travel agency thumbnail image">
+      <a class="project__link" href="../projects/trillo/index.html">
+        <img class="project__img" src="../assets/img/trillo-port.png" alt="trillo travel agency thumbnail image">
+      </a>
       <p class="project__text">We developed this website based on a design by Jonas Schmedtman. We learned a lot from
         building this project. Notice the attention to detail and the attractive design elements.</p>
     </div>
     <div class="project">
-      <img class="project__img" src="../assets/img/nexter-port.png" alt="nexter homes thumbnail image">
+      <a class="project__link" href="../projects/nexter/index.html">
+        <img class="project__img" src="../assets/img/nexter-port.png" alt="nexter homes thumbnail image">
+      </a>
       <p class="project__text">Here is another website we developed from a design by Jonas Schmedtman. We really like
         how
         this project turned out for its use of color and spacious yet still mobile-friendly layout.</p>
     </div>
 
     <div class="project">
-      <img class="project__img" src="../assets/img/natours-port.png" alt="trillo travel agency thumbnail image">
+      <a class="project__link" href="../projects/natours/index.html">
+        <img class="project__img" src="../assets/img/natours-port.png" alt="trillo travel agency thumbnail image">
+      </a>
       <p class="project__text mb-sm">This project was our biggest under-taking during development. So many uniquely
         designed components really makes this one stand out. Credit to Jonas Schmedtman for the design.</p>
     </div>

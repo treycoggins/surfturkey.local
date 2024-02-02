@@ -12,7 +12,7 @@
   </header>
 
   <main class="main">
-    <form class="form mt-sm" action="src/php/contactform.php" method="POST">
+    <form class="form mt-sm" action="/pages/contactform.php" method="POST">
       <div class="form__control">
         <label for="first-name">First Name</label>
         <input class="form__input" type="text" name="first-name" id="first-name" autofocus>

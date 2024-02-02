@@ -9,21 +9,21 @@
   </header>
 
   <main class="main">
-    <form class="form" action="submit-getstartedform" method="POST">
+    <form class="form" action="/pages/getstarted-form.php" method="POST">
       <div class="form__control checkbox">
-        <input class="form__input" type="checkbox" name="checkboxes[]" value="web design" id="web-design">
+        <input class="form__input" type="checkbox" name="interests[]" value="web design" id="web-design">
         <label for="web-design">Web Design</label>
       </div>
       <div class="form__control checkbox">
-        <input class="form__input" type="checkbox" name="checkboxes[]" value="email campaign" id="email-campaign">
+        <input class="form__input" type="checkbox" name="interests[]" value="email campaign" id="email-campaign">
         <label for="email-campaign">Email Campaign</label>
       </div>
       <div class="form__control checkbox">
-        <input class="form__input" type="checkbox" name="checkboxes[]" value="seo" id="seo">
+        <input class="form__input" type="checkbox" name="interests[]" value="seo" id="seo">
         <label for="seo">SEO</label>
       </div>
       <div class="form__control checkbox">
-        <input class="form__input" type="checkbox" name="checkboxes[]" value="web blog" id="web-blog">
+        <input class="form__input" type="checkbox" name="interests[]" value="web blog" id="web-blog">
         <label for="web-blog">Web Blog</label>
       </div>
       <div class="form__control">
@@ -31,7 +31,7 @@
         <select class="form__input" type="text" id="company-size" name="company-size">
           <option value="small">Small Business (1 - 50 employees)</option>
           <option value="medium">Mid-size (50 - 500 employees)</option>
-          <option value="large">Enterprise (500+ employees)</option>
+          <option value="enterprise">Enterprise (500+ employees)</option>
           <option value="agency">Agency</option>
           <option value="start-up">Start-up</option>
           <option value="other">Other</option>

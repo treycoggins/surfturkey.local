@@ -23,6 +23,9 @@ switch ($requestPath) {
     case '/get-started':
         require __DIR__ . $viewsDir . '/get-started.php';
         break;
+    case '/form-response':
+        require __DIR__ . $viewsDir . '/form-response.php';
+        break;
     default:
         http_response_code(404);
         require __DIR__ . $viewsDir . '/404.php';
